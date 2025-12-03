@@ -19,7 +19,7 @@ pipeline{
         }
         stage('package JAR'){
             steps{
-                bat 'cfm Factori.jar manifest.txt Fact.class'
+                bat 'cfm factorial.jar manifest.txt Fact.class'
             }
         } 
     }
