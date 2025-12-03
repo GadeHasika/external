@@ -14,7 +14,7 @@ pipeline{
         // }
         stage('Run'){
             steps{
-                bat 'java Fact'
+                bat 'java Fact.java'
             }
         }
         stage('package JAR'){
