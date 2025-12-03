@@ -7,7 +7,7 @@ class Test{
             System.out.println("Test passed");
         }
         catch(Exception e){
-            System.out.println("Exception occured"+ e.getmessae());
+            System.out.println("Exception occured"+ e.getMessage());
         }
     }
 }
