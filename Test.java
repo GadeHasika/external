@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Test{
     public static void main(String[]args){
         try{
             if(Factorial(5)!=120)return new AssertionError("Test failed");
